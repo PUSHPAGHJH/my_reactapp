@@ -20,6 +20,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  /* background-color: #fff; */
+}
+.sidebar{
+  padding: 0;
+  margin: 0;
 }
 
 .App-link {
