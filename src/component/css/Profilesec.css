@@ -1,0 +1,131 @@
+.container{
+     display:flex;
+    flex: 0.25;
+    flex-direction: column;
+    border:2px solid #f2eeed;
+    height: -100%;
+    width: -100%;
+    position: sticky;
+    margin-left: 19px;
+    border-radius: 28px; 
+    margin-top: 25px;
+    padding-bottom: 30px;
+    
+}
+
+.container .profile{
+     border-bottom: 2px solid #f2eeed;
+    text-align: center;
+    /* background-color: #ccc;  */
+    /* border-radius: 10px; */
+    border-top: -370px;
+    /* overflow: hidden; */
+    /* border-bottom:20px solid #4d484c; */
+    height:100px;
+    align-items: center; 
+    
+    
+}
+.profile p{
+    margin-left: 155px;
+}
+.profile  .MuiAvatar-circular{
+    width: 82px;
+    height: 82px;
+    /* margin: 10px; */
+    margin-left: 98px;
+    object-fit: contain;
+    margin-top: -12px;
+    /* margin-top: 4px; */
+    /* line-height: 120rem; */
+    /* align-items: center; */
+
+}
+.profile_detail{
+    /* background-color: blue; */
+    /* justify-content: space-between; */
+    /* text-align-last: center; */
+    text-align: center;
+    /* border-bottom:2px solid #88be9d; */
+}
+.profile_detail p{
+font-size: 12px;
+}
+.profile_git{
+    /* background-color:green; */
+    justify-content: space-between;
+    /* text-align-last: center; */
+    text-align: center;
+    margin-left: left;
+    border-bottom:2px solid #f2eeed;
+}
+.button span{
+    font-weight: bold;
+    /* font-size: 18px; */
+    margin-right: 5px;
+    color: #333;
+
+}
+.profile_git p{
+    margin: 0 0 10px 0px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    justify-content:space-evenly;
+}
+.profile_info{
+    /* display: flex; */
+    /* background-color:yellow; */
+    justify-content: space-between;
+    /* text-align-last: center; */
+    text-align: center;
+    margin-left: left;
+    /* border-bottom:8px solid #88be9d; */
+}
+.profile_info h1{
+    font-size: 15px;
+    margin-bottom: -21px;
+    line-height: 69px;
+}
+.profile_info .text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px 10px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -26px;
+    height: 60px;
+}
+
+.text span{
+   /* margin-left: 5px; */
+   margin-right: 45px;
+   
+
+}
+.profile_git .button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px 10px;
+    justify-content: space-between;
+    /* margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50px; */
+
+}
+.profile_git .button input[type='button']{
+    border-radius: 20px;
+    height: 45px;
+    width: 80px;
+}
+.profile_git .button input[type='button']:hover{
+    border-radius: 40px;
+    
+    background-color:#606166;
+    padding: 0 10px;
+    cursor: pointer;
+    position:sticky;
+}
